@@ -34,3 +34,18 @@ function loadReviews() {
         reviewsContainer.appendChild(reviewElement);
     });
 }
+function sendMessage() {
+    const name = document.getElementById("contactName").value;
+    const email = document.getElementById("contactEmail").value;
+    const message = document.getElementById("contactMessage").value;
+
+    if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+        alert("Please fill out all fields.");
+        return;
+    }
+
+    alert(`Thank you, ${name}! Your message has been sent.`);
+    document.getElementById("contactName").value = "";
+    document.getElementById("contactEmail").value = "";
+    document.getElementById("contactMessage").value = "";
+}
