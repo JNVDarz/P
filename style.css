@@ -262,3 +262,36 @@ section.visible {
 .review-form button:hover {
     background: #0056b3;
 }
+/* КОНТАКТНА ІНФОРМАЦІЯ */
+.contact-info {
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+/* ФОРМА КОНТАКТІВ */
+.contact-form {
+    padding: 50px 0;
+    background: #eee;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
