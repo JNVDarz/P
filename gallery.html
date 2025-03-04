@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - PRO Painters Renovation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- ХЕДЕР -->
+    <header>
+        <div class="container">
+            <h1>Our Work Gallery</h1>
+            <p>Take a look at some of our completed projects.</p>
+        </div>
+    </header>
+
+    <!-- НАВІГАЦІЯ -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ГАЛЕРЕЯ -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Our Recent Projects</h2>
+            <div class="gallery-grid">
+                <img src="images/project1.jpg" alt="Project 1" onclick="openImage(this)">
+                <img src="images/project2.jpg" alt="Project 2" onclick="openImage(this)">
+                <img src="images/project3.jpg" alt="Project 3" onclick="openImage(this)">
+                <img src="images/project4.jpg" alt="Project 4" onclick="openImage(this)">
+                <img src="images/project5.jpg" alt="Project 5" onclick="openImage(this)">
+                <img src="images/project6.jpg" alt="Project 6" onclick="openImage(this)">
+            </div>
+        </div>
+    </section>
+
+    <!-- МОДАЛЬНЕ ВІКНО ДЛЯ ПЕРЕГЛЯДУ ФОТО -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="modal-content" id="fullImage">
+    </div>
+
+    <!-- КНОПКА НАЗАД -->
+    <div class="container">
+        <a href="index.html" class="btn">⬅ Back to Home</a>
+    </div>
+
+    <!-- ПІДВАЛ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PRO Painters Renovation | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
