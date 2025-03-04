@@ -9,12 +9,17 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    padding: 20px;
 }
 
 header {
     background: #333;
     color: white;
     padding: 40px 0;
+}
+
+.buttons {
+    margin-top: 10px;
 }
 
 nav ul {
