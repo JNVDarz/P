@@ -42,6 +42,15 @@ nav ul li a {
     padding: 60px 0;
 }
 
+.about, .services-overview, .why-us {
+    padding: 50px 0;
+    background: white;
+}
+
+.why-us {
+    background: #ddd;
+}
+
 .btn {
     display: inline-block;
     margin: 10px;
